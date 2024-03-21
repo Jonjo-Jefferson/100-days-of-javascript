@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <section class="flex flex-col h-min mx-auto max-w-96 bg-slate-200 mt-20">
+      <div>
+        <h1 class="text-3xl text-center py-1">Convert your weight</h1>
+      </div>
+      <div class="mb-6">
+        <label for="weight-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white text-center"
+          >Enter your weight in lb (pounds)</label
+        >
+        <input
+          type="text"
+          id="weight-input"
+          class="mx-auto bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w- p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        />
+      </div>
+      <div class="mb-5">
+        <p class="text-center text-2xl">Your weight in kg is: <span id="weight-kg"></span></p>
+      </div>
+    </section>
+  </body>
+</html>
+<script src="index.js"></script>
