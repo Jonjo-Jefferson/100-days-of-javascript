@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <section class="px-20 flex flex-col h-min mx-auto max-w-96 bg-slate-200 mt-20">
+      <input class="my-5 text-2xl text-center p-5" type="date" id="birthday" name="birthday" />
+      <button class="calculate-age bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        Calculate Age
+      </button>
+      <div>
+        <h2 class="text-center py-5 font-bold"><span class="calculated-age"></span></h2>
+      </div>
+    </section>
+  </body>
+</html>
+<script src="index.js"></script>
